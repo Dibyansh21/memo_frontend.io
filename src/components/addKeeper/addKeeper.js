@@ -19,7 +19,7 @@ const AddKeeper = ({setKeeperlist}) => {
 
     const add = () => {
         if(keeperObj.title){
-            axios.post('http://localhost:3001/api/addNew'||'https://memo-backend-mpe8.onrender.com/api/addNew', keeperObj)
+            axios.post('http://localhost:3001/api/addNew'||'https://memo-backend-w14g.onrender.com/api/addNew', keeperObj)
             .then(res => setKeeperlist(res.data))
         }
     }
