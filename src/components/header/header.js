@@ -4,7 +4,7 @@ import "./header.css"
 const Header = () =>{
     return(
         <div className="header">
-            <h1>the keeper app</h1>
+            <h1>Quick-Memo</h1>
         </div>
     );
 }
