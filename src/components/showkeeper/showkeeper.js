@@ -5,7 +5,7 @@ import axios from "axios"
 const ShowKeeper = ({ keeperlist, setKeeperlist }) => {
 
     const deleteKeeper = (id) => {
-        axios.post('http://localhost:3001/api/delete' || 'https://memo-backend-w14g.onrender.com/api/delete', { id })
+        axios.post( 'https://memo-backend-w14g.onrender.com/api/delete', { id })
         .then(res => setKeeperlist(res.data))
     }
     return (
